@@ -1,2 +1,2 @@
-# hello-world
-Hello world new project template.
+# cocos creator 喜刷刷
+1.92版本

@@ -1,2 +1,2 @@
-# hello-world
-Hello world new project template.
+# 喜刷刷
+cocos creator 2.0

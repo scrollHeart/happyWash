@@ -27,11 +27,11 @@ var EnemyGroup = cc.Class({
         },
         warningMusic: {
             default: null,
-            url: cc.AudioClip
+            type: cc.AudioClip
         },
         roarMusic: {
             default: null,
-            url: cc.AudioClip
+            type: cc.AudioClip
         }
     },
     onLoad: function () {
@@ -89,7 +89,7 @@ var EnemyGroup = cc.Class({
     //敌机随机生成的位置
     getNewEnemyPosition: function(newEnemy) {
         //位于上方，先不可见
-        let randx = cc.randomMinus1To1() * (this.node.parent.width / 2 - newEnemy.width);
+        let randx = (Math.random() - 0.5) * 2 * (this.node.parent.width / 2 - newEnemy.width);
         let randy = this.node.parent.height / 2 + newEnemy.height / 2;
         return cc.v2(randx,randy);
     },

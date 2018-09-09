@@ -22,7 +22,7 @@ var ufoGroup = cc.Class({
 		},
 		winMusic: {
 			default: null,
-			url: cc.AudioClip
+			type: cc.AudioClip
 		}
 	},
 	onLoad () {
@@ -103,12 +103,12 @@ var ufoGroup = cc.Class({
 	},
 	getNewUfoPosition (newUfo){
 		if(Common.commonState.bossShow == 'go'){
-			let randx = cc.randomMinus1To1() * 200;
+			let randx = (Math.random() - 0.5) * 2 * 200;
 			let randy = 150;
 			return cc.v2(randx,randy);
 		}else{
 
-			let randx = cc.randomMinus1To1() * (this.node.parent.width / 2 - newUfo.width);
+			let randx = (Math.random() - 0.5) * 2 * (this.node.parent.width / 2 - newUfo.width);
 			let randy = this.node.parent.height / 2 + newUfo.height / 2;
 			return cc.v2(randx,randy);
 		}

@@ -29,23 +29,23 @@ cc.Class({
 		// 音频
 		gameMusic: {
 			default: null,
-			url: cc.AudioClip
+			type: cc.AudioClip
 		},
 		selectMusic: {
 			default: null,
-			url: cc.AudioClip
+			type: cc.AudioClip
 		},
 		disableMusic: {
 			default: null,
-			url: cc.AudioClip
+			type: cc.AudioClip
 		},
 		gameOverMusic: {
 			default: null,
-			url: cc.AudioClip
+			type: cc.AudioClip
 		},
 		startMusic: {
 			default: null,
-			url: cc.AudioClip
+			type: cc.AudioClip
 		},
 		starAmount: cc.Label
 	}),   

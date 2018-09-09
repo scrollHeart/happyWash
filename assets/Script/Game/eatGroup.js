@@ -53,7 +53,7 @@ var eatGroup = cc.Class({
 	getNewEatPosition: function(newEat) {
 	
 		//位于上方，先不可见
-		let randx = cc.randomMinus1To1() * (this.node.parent.width / 2 - newEat.width);
+		let randx = (Math.random() - 0.5) * 2 * (this.node.parent.width / 2 - newEat.width);
 		let randy = this.node.parent.height / 2 + newEat.height / 2;
 
 		return cc.v2(randx,randy);

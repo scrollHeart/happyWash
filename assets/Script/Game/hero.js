@@ -8,11 +8,11 @@ cc.Class({
     },  
     eatMusic: {
       default: null,
-      url: cc.AudioClip
+      type: cc.AudioClip
     },
     injuryMusic: {
       default: null,
-      url: cc.AudioClip
+      type: cc.AudioClip
     },
     hp: {
       default: null,

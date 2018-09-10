@@ -11,7 +11,7 @@ cc.Class({
 		},
 		addHeartMusic: {
 			default: null,
-			url: cc.AudioClip
+			type: cc.AudioClip
 		}
 	},
 	onLoad () {

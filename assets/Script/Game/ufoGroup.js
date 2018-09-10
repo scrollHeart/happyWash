@@ -22,7 +22,7 @@ var ufoGroup = cc.Class({
 		},
 		winMusic: {
 			default: null,
-			url: cc.AudioClip
+			type: cc.AudioClip
 		}
 	},
 	onLoad () {

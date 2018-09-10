@@ -27,11 +27,11 @@ var EnemyGroup = cc.Class({
         },
         warningMusic: {
             default: null,
-            url: cc.AudioClip
+            type: cc.AudioClip
         },
         roarMusic: {
             default: null,
-            url: cc.AudioClip
+            type: cc.AudioClip
         }
     },
     onLoad: function () {

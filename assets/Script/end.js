@@ -25,7 +25,7 @@ cc.Class({
 		}, 
 		selectMusic: {
 			default: null,
-			url: cc.AudioClip
+			type: cc.AudioClip
 		}   
 	},
 	onLoad: function () {

@@ -9,7 +9,7 @@
   "inlineSpriteFrames": true,
   "inlineSpriteFrames_native": true,
   "jailbreakPlatform": false,
-  "md5Cache": false,
+  "md5Cache": true,
   "mergeStartScene": false,
   "oauthLoginServer": "",
   "optimizeHotUpdate": false,
@@ -26,12 +26,12 @@
     "orientation": "portrait"
   },
   "renderMode": "0",
-  "startScene": "50e3fb36-c28e-427f-9c91-d261924d784c",
-  "title": "hello_world",
+  "startScene": "1485fb42-9551-4f7e-b629-68e9f0915f87",
+  "title": "happyWash",
   "webOrientation": "auto",
   "wechatgame": {
     "REMOTE_SERVER_ROOT": "",
-    "appid": "wx6ac3f5090a6b99c5",
+    "appid": "wxad48b60769f67a0a",
     "isSubdomain": false,
     "orientation": "portrait",
     "subContext": ""

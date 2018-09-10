@@ -9,7 +9,7 @@ cc.Class({
 		// 音频
 		selectMusic: {
 			default: null,
-			url: cc.AudioClip
+			type: cc.AudioClip
 		}
 	},
 

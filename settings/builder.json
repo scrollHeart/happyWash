@@ -30,7 +30,7 @@
   "title": "happyWash",
   "webOrientation": "auto",
   "wechatgame": {
-    "REMOTE_SERVER_ROOT": "",
+    "REMOTE_SERVER_ROOT": "http://127.0.0.1/~yuner/happyWash/",
     "appid": "wxad48b60769f67a0a",
     "isSubdomain": false,
     "orientation": "portrait",

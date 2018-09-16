@@ -3,10 +3,12 @@
     "__type__": "cc.Prefab",
     "_name": "",
     "_objFlags": 0,
-    "_rawFiles": null,
+    "_native": "",
     "data": {
       "__id__": 1
-    }
+    },
+    "optimizationPolicy": 0,
+    "asyncLoadAssets": false
   },
   {
     "__type__": "cc.Node",
@@ -172,8 +174,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 18,
-      "height": 40
+      "width": 14,
+      "height": 27
     },
     "_rotationX": 0,
     "_rotationY": 0,
@@ -200,7 +202,7 @@
     },
     "_enabled": true,
     "_spriteFrame": {
-      "__uuid__": "7152063c-aae1-4ef3-a42d-608337dbc311"
+      "__uuid__": "01a344f9-4b92-4dc4-acbb-6e65542bff2e"
     },
     "_type": 0,
     "_sizeMode": 1,
@@ -215,9 +217,7 @@
     "_isTrimmedMode": true,
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_atlas": {
-      "__uuid__": "36cfee2c-ce1a-440f-844f-87f29e5c4cd6"
-    }
+    "_atlas": null
   },
   {
     "__type__": "9ff83ydvGpAhpmQGOJ/dXkX",
@@ -405,8 +405,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 18,
-      "height": 40
+      "width": 14,
+      "height": 27
     },
     "_rotationX": 0,
     "_rotationY": 0,
@@ -433,7 +433,7 @@
     },
     "_enabled": true,
     "_spriteFrame": {
-      "__uuid__": "7152063c-aae1-4ef3-a42d-608337dbc311"
+      "__uuid__": "01a344f9-4b92-4dc4-acbb-6e65542bff2e"
     },
     "_type": 0,
     "_sizeMode": 1,
@@ -448,9 +448,7 @@
     "_isTrimmedMode": true,
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_atlas": {
-      "__uuid__": "36cfee2c-ce1a-440f-844f-87f29e5c4cd6"
-    }
+    "_atlas": null
   },
   {
     "__type__": "9ff83ydvGpAhpmQGOJ/dXkX",
@@ -548,7 +546,7 @@
     },
     "_enabled": true,
     "_spriteFrame": {
-      "__uuid__": "836fe4c5-dcdb-4119-aad1-30cbb87f5e07"
+      "__uuid__": "d2bacf0e-fce4-4d43-b448-57ce7cf6f1fa"
     },
     "_type": 0,
     "_sizeMode": 0,
@@ -560,12 +558,10 @@
     },
     "_fillStart": 0,
     "_fillRange": 0,
-    "_isTrimmedMode": true,
+    "_isTrimmedMode": false,
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_atlas": {
-      "__uuid__": "36cfee2c-ce1a-440f-844f-87f29e5c4cd6"
-    }
+    "_atlas": null
   },
   {
     "__type__": "9ea86thBmNLw6i6kesAQz+t",
@@ -578,7 +574,7 @@
     "speedMax": 150,
     "speedMin": 100,
     "initSpriteFrame": {
-      "__uuid__": "836fe4c5-dcdb-4119-aad1-30cbb87f5e07"
+      "__uuid__": "d2bacf0e-fce4-4d43-b448-57ce7cf6f1fa"
     },
     "monster": {
       "__uuid__": "e6e388cd-38a8-4a1c-9fb8-93d05c9d9105"

@@ -69,6 +69,7 @@ cc.Class({
 					let _li = _ul[i].children;
 					_li.forEach(function(item, index, array){
 						if(item.x > xLen || item.y > yLen || item.x < -xLen || item.y < -yLen){
+							
 						}else{
 							eachOn = false;
 						}
@@ -76,7 +77,7 @@ cc.Class({
 				}
 				if(eachOn){
 					this.num++;
-					if(this.num < 2){
+					if(this.num < Common.commonState.bossShowCount){
 						this.node.runAction(actionTo);
 						// 怪物低吼
 						cc.audioEngine.play(this.roarMusic, false);

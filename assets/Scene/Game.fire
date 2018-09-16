@@ -516,21 +516,21 @@
   },
   {
     "__type__": "enemyG",
-    "name": "shit",
-    "prefab": {
-      "__uuid__": "1067fd55-c643-4db3-9c7a-2bf5d5c938f3"
-    },
-    "freq": 5,
-    "poolAmount": 5
-  },
-  {
-    "__type__": "enemyG",
     "name": "boss",
     "prefab": {
       "__uuid__": "67b2b8cb-1cc9-48da-9d4d-3c044f14f956"
     },
-    "freq": 15,
+    "freq": 5,
     "poolAmount": 2
+  },
+  {
+    "__type__": "enemyG",
+    "name": "shit",
+    "prefab": {
+      "__uuid__": "1067fd55-c643-4db3-9c7a-2bf5d5c938f3"
+    },
+    "freq": 10,
+    "poolAmount": 6
   },
   {
     "__type__": "2e29coU/g1HWZU0auq0h/n5",
@@ -699,8 +699,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
+      "width": 640,
+      "height": 960
     },
     "_rotationX": 0,
     "_rotationY": 0,
@@ -2492,7 +2492,9 @@
       "__id__": 73
     },
     "_enabled": true,
-    "_spriteFrame": null,
+    "_spriteFrame": {
+      "__uuid__": "c028d370-7b25-4a91-b97d-95e30a8d7c59"
+    },
     "_type": 0,
     "_sizeMode": 0,
     "_fillType": 0,
@@ -2506,7 +2508,9 @@
     "_isTrimmedMode": true,
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_atlas": null
+    "_atlas": {
+      "__uuid__": "a710e6b7-6cfb-47ec-8f06-937d74103608"
+    }
   },
   {
     "__type__": "cc.Node",

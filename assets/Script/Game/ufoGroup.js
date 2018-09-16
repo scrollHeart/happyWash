@@ -30,7 +30,7 @@ var ufoGroup = cc.Class({
 		let num = 0,
 				numNew = 0;
 		let numSchedule = this.schedule(function(){
-			numNew = Math.floor(Common.commonState.gameScore/300);
+			numNew = Math.floor(Common.commonState.gameScore/100);
 				if(numNew > num){
 					// 发放一颗星星	
 					for(let i = 0; i < this.ufoGroup.length; i++){

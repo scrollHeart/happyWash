@@ -37,14 +37,17 @@ var EnemyGroup = cc.Class({
     onLoad: function () {
         Common.batchInitNodePool(this, this.enemyGroup);
         let num = 0,
-            numNew = 0;
+            numNew = 0;    
+        Common.commonState.bossShowCount = 0;
+
         this.schedule(function(){
-			numNew = Math.floor(Common.commonState.gameScore/300);
+			numNew = Math.floor(Common.commonState.gameScore/1500);
 				if(numNew > num){
 					// boss来袭	
 					for(let i = 0; i < this.enemyGroup.length; i++){
 						let groupName = this.enemyGroup[i].name;
 						if(groupName == 'boss'){
+                            Common.commonState.bossShowCount++;
                             this.bossLabel.node.opacity = 255;
                             Common.commonState.bossShow = 'show';
                             cc.audioEngine.play(this.warningMusic, false);

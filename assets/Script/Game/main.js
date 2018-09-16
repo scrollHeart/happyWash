@@ -72,7 +72,7 @@ cc.Class({
 	},
 	setBomb (){
 		Common.commonState.bombAmount++;
-		let bombAmount = eval(this.bombAmount.string.substr(1)) + 1;
+		let bombAmount = parseInt(this.bombAmount.string.substr(1)) + 1;
 		this.bombAmount.string = 'x' + String(bombAmount);
 	},
 	setStar (){

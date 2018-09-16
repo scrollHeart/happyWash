@@ -157,10 +157,11 @@ cc.Class({
           break;
         case 3:
           for(let i = 0; i < 3; i++){
-            _index = this.hpNum + i;
+            _index = this.hpNum + 0.5 + i;
             this.hp.children[_index].getComponent(cc.Sprite).spriteFrame = empty;
           }
-          this.hp.children[_index - 1].getComponent(cc.Sprite).spriteFrame = half;
+          let halfIndex = this.hpNum - 0.5;
+          this.hp.children[halfIndex].getComponent(cc.Sprite).spriteFrame = half;
           cc.audioEngine.play(this.injuryMusic, false);
 
           break;
